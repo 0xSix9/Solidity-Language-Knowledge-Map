@@ -8,6 +8,35 @@ A focused learning path containing **86 selected core Solidity topics**, grouped
 
 ![Solidity Core Learning Map — 86 Topics](assets/solidity-core-learning-map-86.svg)
 
+## Learn Solidity alongside blockchain concepts
+
+The **86 numbered Solidity topics remain the primary learning order**. The Blockchain Concepts roadmap is a support reference: study only the EVM, ABI, storage, architecture, transaction, or RPC concepts that help with the Solidity topic you are working on. **Do not wait to complete all six blockchain stages before starting Solidity.**
+
+➡️ **[Open the complete Solidity ↔ Blockchain Concepts Prerequisite Map](BLOCKCHAIN-PREREQUISITE-MAP.md)** — includes a topic-by-topic table for all 86 items, readiness labels, links to the relevant blockchain stages, and recommended checkpoints.
+
+### How to read the prerequisite map
+
+- **None** — no blockchain-specific prerequisite is needed to learn the Solidity feature.
+- **Familiarity** — understand the basic mechanism; a deep dive can wait.
+- **Required before deep study** — learn the linked concepts before expecting to explain the feature's runtime behavior confidently. You can still study its Solidity syntax earlier.
+- **Study alongside / revisit** — useful context or a later deepening point, not a blocker.
+
+### Key learning checkpoints
+
+| Solidity topics | Focus | Blockchain concepts to prioritize |
+|---|---|---|
+| **1–34** | Solidity language foundations | Start coding; most topics need no blockchain prerequisite. |
+| **35–59** | Contracts, functions, inheritance, events, and errors | Use EVM execution, ABI/contract interaction, and selected architecture concepts as needed. |
+| **60–63** | Storage, Memory, Calldata, and data layout | **Deep study:** EVM execution + Storage and Data Layout. |
+| **64–76** | Global values, hashing, deployment, and contract calls | Prioritize execution context and ABI; add storage, architecture, and Gas topics where relevant. |
+| **77–80** | Function selectors and ABI encoding | **Deep study:** ABI/contract interaction, calldata/returndata, and related memory/layout concepts. |
+| **81–85** | Compiler, bytecode, arithmetic, rollback, and language semantics | Focus on Solidity/compiler behavior; use EVM and transaction concepts to explain runtime effects. |
+| **86** | External calls and reentrancy | **Integration checkpoint:** EVM execution + ABI/contract interaction + storage context + contract architecture. |
+
+**Application connectivity is learned when it becomes useful.** You do not need to finish JSON-RPC, transaction signing, or node concepts before writing Solidity. Prioritize that part of the blockchain roadmap when you begin connecting a website or another external application to your contracts.
+
+---
+
 ## Core topic files
 
 ### 01 — Source Files
