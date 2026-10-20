@@ -46,7 +46,7 @@ The list below follows the Solidity map's numeric order from **1 through 86**. T
 
 ### Topics 1–34 — Language foundations
 
-| # | Solidity topic | Before deep study | Study alongside / revisit |
+| # | Solidity topic | Before deep study | Study alongside / revisit + direct links |
 |---:|---|---|---|
 | 1 | Solidity source files | **None** — Learn the source-file structure as a Solidity language topic. | Return to compiler settings only when the project setup requires them. |
 | 2 | SPDX license identifier | **None** — This is source-file metadata, not a blockchain execution concept. | Review repository licensing independently from Solidity runtime behavior. |
@@ -87,7 +87,7 @@ The list below follows the Solidity map's numeric order from **1 through 86**. T
 
 ### Topics 35–59 — Contract structure and functions
 
-| # | Solidity topic | Before deep study | Study alongside / revisit |
+| # | Solidity topic | Before deep study | Study alongside / revisit + direct links |
 |---:|---|---|---|
 | 35 | Contract definition and body | **None** — Learn the Solidity contract skeleton first. | Contract composition in S04 becomes useful when organizing multiple contracts. **Direct concept articles:** [Contract Composition](https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap/blob/main/concepts/04-smart-contract-architecture/01-contract-composition.md). |
 | 36 | Constructor | **Familiarity** — Before studying deployment behavior deeply, review S01: CREATE and Contract Creation/Initialization and S02: Constructors. | You can learn the constructor syntax before completing these concepts; focus on what executes at deployment. **Direct concept articles:** [Contract Creation and Initialization](https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap/blob/main/concepts/01-evm-execution/11-contract-creation-and-initialization.md), [Constructors](https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap/blob/main/concepts/02-abi-contract-interaction/06-constructors.md), [CREATE](https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap/blob/main/concepts/01-evm-execution/07-create.md). |
@@ -119,7 +119,7 @@ The list below follows the Solidity map's numeric order from **1 through 86**. T
 
 ### Topics 60–80 — Data locations and contract interaction
 
-| # | Solidity topic | Before deep study | Study alongside / revisit |
+| # | Solidity topic | Before deep study | Study alongside / revisit + direct links |
 |---:|---|---|---|
 | 60 | Storage, memory, and calldata | **Required before deep study** — Study S01: Stack, Memory, and Calldata and S03: Storage Layout, Memory Layout, Calldata Layout, and Storage Context. | This is the main checkpoint for upgrading from basic familiarity to a working mental model of data locations. **Direct concept articles:** [Stack, Memory, and Calldata](https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap/blob/main/concepts/01-evm-execution/02-stack-memory-and-calldata.md), [Storage Layout](https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap/blob/main/concepts/03-storage-data-layout/01-storage-layout.md), [Memory Layout](https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap/blob/main/concepts/03-storage-data-layout/05-memory-layout.md), [Calldata Layout](https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap/blob/main/concepts/03-storage-data-layout/06-calldata-layout.md), [Storage Context](https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap/blob/main/concepts/03-storage-data-layout/08-storage-context.md). |
 | 61 | Copying and referencing arrays and structs | **Required for deep understanding** — Be comfortable with [#60](#topics-60-80-data-locations-and-contract-interaction), then review S03: Storage Context and Memory/Calldata Layout. | Test assignment behavior separately for value types, memory references, and storage references. **Direct concept articles:** [Memory Layout](https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap/blob/main/concepts/03-storage-data-layout/05-memory-layout.md), [Storage Context](https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap/blob/main/concepts/03-storage-data-layout/08-storage-context.md), [Storage Layout](https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap/blob/main/concepts/03-storage-data-layout/01-storage-layout.md). |
@@ -147,7 +147,7 @@ The list below follows the Solidity map's numeric order from **1 through 86**. T
 
 ### Topics 81–86 — Compiler, semantics, and security
 
-| # | Solidity topic | Before deep study | Study alongside / revisit |
+| # | Solidity topic | Before deep study | Study alongside / revisit + direct links |
 |---:|---|---|---|
 | 81 | Compiler warnings and errors | **None** — Compiler diagnostics can be learned without blockchain prerequisites. | Distinguish compile-time errors from runtime reverts and deployment failures. |
 | 82 | Creation and runtime bytecode | **Required for deep understanding** — Study S01: EVM Opcodes and Contract Creation/Initialization, plus S02: Function Dispatch and Selectors. | Compare creation bytecode with the deployed runtime bytecode; compiler version and settings affect output. **Direct concept articles:** [EVM Opcodes](https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap/blob/main/concepts/01-evm-execution/01-evm-opcodes.md), [Contract Creation and Initialization](https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap/blob/main/concepts/01-evm-execution/11-contract-creation-and-initialization.md), [Function Dispatch](https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap/blob/main/concepts/02-abi-contract-interaction/04-function-dispatch.md). |
