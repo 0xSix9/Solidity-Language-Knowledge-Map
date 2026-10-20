@@ -4,6 +4,8 @@ This guide connects the **86 core Solidity topics** in this repository to the si
 
 > **Principle:** Do not finish all six blockchain stages before starting Solidity. Learn the Solidity topics in order, study only the relevant prerequisite concepts when needed, and deepen the underlying EVM knowledge at the milestones below.
 
+> 📚 **Companion repository — all six blockchain concept stages:** [Blockchain Concepts Learning Roadmap](https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap). To browse the stages directly, open the [concepts directory](https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap/tree/main/concepts). Each **S01–S06** link in this guide also opens its specific stage.
+
 ## How to read the map
 
 - **None** — no blockchain-specific prerequisite is needed to learn the Solidity language feature.
