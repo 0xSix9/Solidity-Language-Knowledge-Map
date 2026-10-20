@@ -14,7 +14,7 @@ The **86 numbered Solidity topics remain the primary learning order**. The Block
 
 📚 **Companion prerequisite repository:** [Blockchain Concepts Learning Roadmap — open the repository containing the six relevant stages](https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap). You can also [open the concepts directory and browse the stages](https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap/tree/main/concepts).
 
-➡️ **[Open the complete Solidity ↔ Blockchain Concepts Prerequisite Map](BLOCKCHAIN-PREREQUISITE-MAP.md)** — includes a topic-by-topic table for all 86 items, readiness labels, links to the relevant blockchain stages, and recommended checkpoints.
+➡️ **[Open the complete Solidity ↔ Blockchain Concepts Prerequisite Map](BLOCKCHAIN-PREREQUISITE-MAP.md)** — includes a topic-by-topic table for all 86 items, readiness labels, **direct links to the exact prerequisite articles** in the six-stage blockchain concepts repository, and recommended checkpoints.
 
 ### How to read the prerequisite map
 
