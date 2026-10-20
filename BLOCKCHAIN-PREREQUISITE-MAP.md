@@ -173,3 +173,10 @@ Likewise, advanced Rollup, consensus, MEV, and cryptography topics from later st
 ---
 
 *This is a practical learning dependency guide, not an official Solidity specification. Exact runtime behavior can depend on the Solidity compiler version, EVM revision, and target chain. Confirm version-sensitive details against the relevant documentation when studying a topic.*
+
+[S01]: https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap/tree/main/concepts/01-evm-execution "Stage 01 — EVM Execution"
+[S02]: https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap/tree/main/concepts/02-abi-contract-interaction "Stage 02 — ABI and Contract Interaction"
+[S03]: https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap/tree/main/concepts/03-storage-data-layout "Stage 03 — Storage and Data Layout"
+[S04]: https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap/tree/main/concepts/04-smart-contract-architecture "Stage 04 — Smart Contract Architecture"
+[S05]: https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap/tree/main/concepts/05-advanced-transactions-gas "Stage 05 — Advanced Transactions and Gas"
+[S06]: https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap/tree/main/concepts/06-application-connectivity "Stage 06 — Application Connectivity"
