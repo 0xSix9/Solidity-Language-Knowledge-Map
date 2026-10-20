@@ -12,6 +12,8 @@ A focused learning path containing **86 selected core Solidity topics**, grouped
 
 The **86 numbered Solidity topics remain the primary learning order**. The Blockchain Concepts roadmap is a support reference: study only the EVM, ABI, storage, architecture, transaction, or RPC concepts that help with the Solidity topic you are working on. **Do not wait to complete all six blockchain stages before starting Solidity.**
 
+📚 **Companion prerequisite repository:** [Blockchain Concepts Learning Roadmap — open the repository containing the six relevant stages](https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap). You can also [open the concepts directory and browse the stages](https://github.com/0xSix9/Blockchain-Concepts-Learning-Roadmap/tree/main/concepts).
+
 ➡️ **[Open the complete Solidity ↔ Blockchain Concepts Prerequisite Map](BLOCKCHAIN-PREREQUISITE-MAP.md)** — includes a topic-by-topic table for all 86 items, readiness labels, links to the relevant blockchain stages, and recommended checkpoints.
 
 ### How to read the prerequisite map
