@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1740" height="1736" viewBox="0 0 1740 1736" role="img" aria-labelledby="title desc">
+<title id="title">Solidity Core Learning Map — 86 Priority Topics</title>
+<desc id="desc">A grouped map of 86 selected core Solidity learning topics across 18 subject areas. This is a learning-priority map, not a claim that these topics are the complete language specification.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#08111f"/><stop offset="100%" stop-color="#0b1729"/>
+  </linearGradient>
+  <linearGradient id="hero" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#173c70"/><stop offset="100%" stop-color="#153b4e"/>
+  </linearGradient>
+</defs>
+<rect width="100%" height="100%" fill="url(#bg)"/>
+<circle cx="1585" cy="42" r="120" fill="#1b5e87" opacity="0.10"/>
+<circle cx="1505" cy="80" r="74" fill="#4b7de3" opacity="0.08"/>
+<rect x="42" y="30" width="1656" height="126" rx="24" fill="url(#hero)" stroke="#2b5680"/>
+<text x="76" y="70" fill="#9ec5ff" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2.4">SOLIDITY LANGUAGE KNOWLEDGE MAP</text>
+<text x="76" y="111" fill="#ffffff" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="750">Core Learning — 86 Topics</text>
+<text x="78" y="138" fill="#cfddf1" font-family="Inter,Arial,sans-serif" font-size="14">A prioritized learning path from language fundamentals to contract interaction and EVM behavior</text>
+<g transform="translate(42,182)">
+      <rect width="534.6666666666666" height="170" rx="18" fill="#111d32" stroke="#263c5c" stroke-width="1.4"/>
+      <rect width="6" height="170" rx="3" fill="#5b9cff"/>
+      <text x="24" y="30" fill="#7fb2ff" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">01 — SOURCE FILES</text>
+      <text x="514.6666666666666" y="30" text-anchor="end" fill="#8fa6c7" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700">4 TOPICS</text><text x="24" y="59" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">01</text>
+        <text x="55" y="59" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Solidity source files and .sol structure</text><text x="24" y="84" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">02</text>
+        <text x="55" y="84" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">SPDX license identifier</text><text x="24" y="109" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">03</text>
+        <text x="55" y="109" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Pragma and Solidity version</text><text x="24" y="134" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">04</text>
+        <text x="55" y="134" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Import directives</text></g><g transform="translate(602.6666666666666,182)">
+      <rect width="534.6666666666666" height="170" rx="18" fill="#111d32" stroke="#263c5c" stroke-width="1.4"/>
+      <rect width="6" height="170" rx="3" fill="#65d6c2"/>
+      <text x="24" y="30" fill="#7fb2ff" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">02 — SYNTAX AND GRAMMAR</text>
+      <text x="514.6666666666666" y="30" text-anchor="end" fill="#8fa6c7" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700">4 TOPICS</text><text x="24" y="59" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">05</text>
+        <text x="55" y="59" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Identifiers and keywords</text><text x="24" y="84" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">06</text>
+        <text x="55" y="84" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Literal syntax</text><text x="24" y="109" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">07</text>
+        <text x="55" y="109" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Declaration syntax</text><text x="24" y="134" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">08</text>
+        <text x="55" y="134" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Expression, block, and statement syntax</text></g><g transform="translate(1163.3333333333333,182)">
+      <rect width="534.6666666666666" height="170" rx="18" fill="#111d32" stroke="#263c5c" stroke-width="1.4"/>
+      <rect width="6" height="170" rx="3" fill="#b09cff"/>
+      <text x="24" y="30" fill="#7fb2ff" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">03 — TYPE SYSTEM</text>
+      <text x="514.6666666666666" y="30" text-anchor="end" fill="#8fa6c7" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700">3 TOPICS</text><text x="24" y="59" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">09</text>
+        <text x="55" y="59" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Value types and reference types</text><text x="24" y="84" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">10</text>
+        <text x="55" y="84" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Type compatibility and conversions</text><text x="24" y="109" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">11</text>
+        <text x="55" y="109" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Type checking</text></g><g transform="translate(42,374)">
+      <rect width="534.6666666666666" height="245" rx="18" fill="#111d32" stroke="#263c5c" stroke-width="1.4"/>
+      <rect width="6" height="245" rx="3" fill="#5b9cff"/>
+      <text x="24" y="30" fill="#7fb2ff" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">04 — VARIABLES AND DECLARATIONS</text>
+      <text x="514.6666666666666" y="30" text-anchor="end" fill="#8fa6c7" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700">6 TOPICS</text><text x="24" y="59" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">12</text>
+        <text x="55" y="59" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">State variables</text><text x="24" y="84" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">13</text>
+        <text x="55" y="84" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Local variables</text><text x="24" y="109" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">14</text>
+        <text x="55" y="109" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Function parameters and return variables</text><text x="24" y="134" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">15</text>
+        <text x="55" y="134" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Initialization and default values</text><text x="24" y="159" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">16</text>
+        <text x="55" y="159" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">State variable visibility</text><text x="24" y="184" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">17</text>
+        <text x="55" y="184" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Constant and immutable variables</text></g><g transform="translate(602.6666666666666,374)">
+      <rect width="534.6666666666666" height="245" rx="18" fill="#111d32" stroke="#263c5c" stroke-width="1.4"/>
+      <rect width="6" height="245" rx="3" fill="#65d6c2"/>
+      <text x="24" y="30" fill="#7fb2ff" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">05 — BUILT-IN TYPES</text>
+      <text x="514.6666666666666" y="30" text-anchor="end" fill="#8fa6c7" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700">6 TOPICS</text><text x="24" y="59" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">18</text>
+        <text x="55" y="59" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Boolean type: bool</text><text x="24" y="84" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">19</text>
+        <text x="55" y="84" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Unsigned and signed integers: uint and int</text><text x="24" y="109" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">20</text>
+        <text x="55" y="109" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Address and address payable</text><text x="24" y="134" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">21</text>
+        <text x="55" y="134" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Bytes and string types</text><text x="24" y="159" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">22</text>
+        <text x="55" y="159" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Fixed and dynamic arrays</text><text x="24" y="184" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">23</text>
+        <text x="55" y="184" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Mapping type</text></g><g transform="translate(1163.3333333333333,374)">
+      <rect width="534.6666666666666" height="245" rx="18" fill="#111d32" stroke="#263c5c" stroke-width="1.4"/>
+      <rect width="6" height="245" rx="3" fill="#b09cff"/>
+      <text x="24" y="30" fill="#7fb2ff" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">06 — OPERATORS AND EXPRESSIONS</text>
+      <text x="514.6666666666666" y="30" text-anchor="end" fill="#8fa6c7" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700">7 TOPICS</text><text x="24" y="59" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">24</text>
+        <text x="55" y="59" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Arithmetic operators</text><text x="24" y="84" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">25</text>
+        <text x="55" y="84" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Comparison and equality operators</text><text x="24" y="109" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">26</text>
+        <text x="55" y="109" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Logical operators</text><text x="24" y="134" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">27</text>
+        <text x="55" y="134" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Bitwise and shift operators</text><text x="24" y="159" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">28</text>
+        <text x="55" y="159" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Assignment, increment, and decrement</text><text x="24" y="184" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">29</text>
+        <text x="55" y="184" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Conditional operator ?:</text><text x="24" y="209" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">30</text>
+        <text x="55" y="209" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Delete operator</text></g><g transform="translate(42,641)">
+      <rect width="534.6666666666666" height="245" rx="18" fill="#111d32" stroke="#263c5c" stroke-width="1.4"/>
+      <rect width="6" height="245" rx="3" fill="#5b9cff"/>
+      <text x="24" y="30" fill="#7fb2ff" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">07 — STATEMENTS AND CONTROL FLOW</text>
+      <text x="514.6666666666666" y="30" text-anchor="end" fill="#8fa6c7" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700">4 TOPICS</text><text x="24" y="59" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">31</text>
+        <text x="55" y="59" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">If and else statements</text><text x="24" y="84" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">32</text>
+        <text x="55" y="84" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">For, while, and do-while loops</text><text x="24" y="109" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">33</text>
+        <text x="55" y="109" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Break and continue statements</text><text x="24" y="134" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">34</text>
+        <text x="55" y="134" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Return and function exit</text></g><g transform="translate(602.6666666666666,641)">
+      <rect width="534.6666666666666" height="245" rx="18" fill="#111d32" stroke="#263c5c" stroke-width="1.4"/>
+      <rect width="6" height="245" rx="3" fill="#65d6c2"/>
+      <text x="24" y="30" fill="#7fb2ff" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">08 — CONTRACTS AND CONTRACT STRUCTURE</text>
+      <text x="514.6666666666666" y="30" text-anchor="end" fill="#8fa6c7" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700">7 TOPICS</text><text x="24" y="59" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">35</text>
+        <text x="55" y="59" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Contract definition and body</text><text x="24" y="84" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">36</text>
+        <text x="55" y="84" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Constructor</text><text x="24" y="109" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">37</text>
+        <text x="55" y="109" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Receive and fallback functions</text><text x="24" y="134" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">38</text>
+        <text x="55" y="134" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Structs</text><text x="24" y="159" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">39</text>
+        <text x="55" y="159" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Enums</text><text x="24" y="184" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">40</text>
+        <text x="55" y="184" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Interfaces</text><text x="24" y="209" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">41</text>
+        <text x="55" y="209" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Abstract contracts</text></g><g transform="translate(1163.3333333333333,641)">
+      <rect width="534.6666666666666" height="245" rx="18" fill="#111d32" stroke="#263c5c" stroke-width="1.4"/>
+      <rect width="6" height="245" rx="3" fill="#b09cff"/>
+      <text x="24" y="30" fill="#7fb2ff" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">09 — FUNCTIONS AND MODIFIERS</text>
+      <text x="514.6666666666666" y="30" text-anchor="end" fill="#8fa6c7" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700">7 TOPICS</text><text x="24" y="59" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">42</text>
+        <text x="55" y="59" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Function declaration and signature</text><text x="24" y="84" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">43</text>
+        <text x="55" y="84" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Function calls and return values</text><text x="24" y="109" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">44</text>
+        <text x="55" y="109" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Function visibility</text><text x="24" y="134" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">45</text>
+        <text x="55" y="134" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">View, pure, and payable</text><text x="24" y="159" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">46</text>
+        <text x="55" y="159" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Function modifiers</text><text x="24" y="184" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">47</text>
+        <text x="55" y="184" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Function overloading</text><text x="24" y="209" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">48</text>
+        <text x="55" y="209" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Virtual and override</text></g><g transform="translate(42,908)">
+      <rect width="534.6666666666666" height="220" rx="18" fill="#111d32" stroke="#263c5c" stroke-width="1.4"/>
+      <rect width="6" height="220" rx="3" fill="#5b9cff"/>
+      <text x="24" y="30" fill="#7fb2ff" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">10 — INHERITANCE AND POLYMORPHISM</text>
+      <text x="514.6666666666666" y="30" text-anchor="end" fill="#8fa6c7" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700">3 TOPICS</text><text x="24" y="59" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">49</text>
+        <text x="55" y="59" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Base, derived, and multiple inheritance</text><text x="24" y="84" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">50</text>
+        <text x="55" y="84" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Constructor execution order</text><text x="24" y="109" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">51</text>
+        <text x="55" y="109" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Super calls</text></g><g transform="translate(602.6666666666666,908)">
+      <rect width="534.6666666666666" height="220" rx="18" fill="#111d32" stroke="#263c5c" stroke-width="1.4"/>
+      <rect width="6" height="220" rx="3" fill="#65d6c2"/>
+      <text x="24" y="30" fill="#7fb2ff" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">11 — LIBRARIES AND REUSABILITY</text>
+      <text x="514.6666666666666" y="30" text-anchor="end" fill="#8fa6c7" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700">2 TOPICS</text><text x="24" y="59" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">52</text>
+        <text x="55" y="59" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Libraries and library functions</text><text x="24" y="84" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">53</text>
+        <text x="55" y="84" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Using-for and extension methods</text></g><g transform="translate(1163.3333333333333,908)">
+      <rect width="534.6666666666666" height="220" rx="18" fill="#111d32" stroke="#263c5c" stroke-width="1.4"/>
+      <rect width="6" height="220" rx="3" fill="#b09cff"/>
+      <text x="24" y="30" fill="#7fb2ff" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">12 — EVENTS AND ERROR HANDLING</text>
+      <text x="514.6666666666666" y="30" text-anchor="end" fill="#8fa6c7" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700">6 TOPICS</text><text x="24" y="59" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">54</text>
+        <text x="55" y="59" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Events and emit</text><text x="24" y="84" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">55</text>
+        <text x="55" y="84" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Indexed event parameters and log topics</text><text x="24" y="109" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">56</text>
+        <text x="55" y="109" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Require input validation</text><text x="24" y="134" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">57</text>
+        <text x="55" y="134" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Revert and custom errors</text><text x="24" y="159" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">58</text>
+        <text x="55" y="159" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Assert and panic errors</text><text x="24" y="184" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">59</text>
+        <text x="55" y="184" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Try-catch</text></g><g transform="translate(42,1150)">
+      <rect width="534.6666666666666" height="270" rx="18" fill="#111d32" stroke="#263c5c" stroke-width="1.4"/>
+      <rect width="6" height="270" rx="3" fill="#5b9cff"/>
+      <text x="24" y="30" fill="#7fb2ff" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">13 — DATA LOCATIONS AND MEMORY MODEL</text>
+      <text x="514.6666666666666" y="30" text-anchor="end" fill="#8fa6c7" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700">4 TOPICS</text><text x="24" y="59" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">60</text>
+        <text x="55" y="59" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Storage, memory, and calldata</text><text x="24" y="84" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">61</text>
+        <text x="55" y="84" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Copying and referencing arrays and structs</text><text x="24" y="109" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">62</text>
+        <text x="55" y="109" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Storage slots and packing</text><text x="24" y="134" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">63</text>
+        <text x="55" y="134" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Mapping and dynamic-array storage layout</text></g><g transform="translate(602.6666666666666,1150)">
+      <rect width="534.6666666666666" height="270" rx="18" fill="#111d32" stroke="#263c5c" stroke-width="1.4"/>
+      <rect width="6" height="270" rx="3" fill="#65d6c2"/>
+      <text x="24" y="30" fill="#7fb2ff" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">14 — UNITS AND GLOBAL FEATURES</text>
+      <text x="514.6666666666666" y="30" text-anchor="end" fill="#8fa6c7" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700">6 TOPICS</text><text x="24" y="59" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">64</text>
+        <text x="55" y="59" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Ether and time units</text><text x="24" y="84" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">65</text>
+        <text x="55" y="84" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">msg global variables</text><text x="24" y="109" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">66</text>
+        <text x="55" y="109" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Block global information</text><text x="24" y="134" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">67</text>
+        <text x="55" y="134" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">keccak256 and hashing</text><text x="24" y="159" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">68</text>
+        <text x="55" y="159" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Address balance and code</text><text x="24" y="184" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">69</text>
+        <text x="55" y="184" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">tx.origin versus msg.sender</text></g><g transform="translate(1163.3333333333333,1150)">
+      <rect width="534.6666666666666" height="270" rx="18" fill="#111d32" stroke="#263c5c" stroke-width="1.4"/>
+      <rect width="6" height="270" rx="3" fill="#b09cff"/>
+      <text x="24" y="30" fill="#7fb2ff" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">15 — CONTRACT INTERACTION AND CREATION</text>
+      <text x="514.6666666666666" y="30" text-anchor="end" fill="#8fa6c7" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700">8 TOPICS</text><text x="24" y="59" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">70</text>
+        <text x="55" y="59" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Contract creation with new</text><text x="24" y="84" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">71</text>
+        <text x="55" y="84" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">External interface calls</text><text x="24" y="109" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">72</text>
+        <text x="55" y="109" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Call options: value and gas</text><text x="24" y="134" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">73</text>
+        <text x="55" y="134" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">call, delegatecall, and staticcall</text><text x="24" y="159" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">74</text>
+        <text x="55" y="159" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Ether transfer with call and result checking</text><text x="24" y="184" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">75</text>
+        <text x="55" y="184" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Call context and msg.sender</text><text x="24" y="209" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">76</text>
+        <text x="55" y="209" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Receive and fallback dispatch</text><text x="24" y="234" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">86</text>
+        <text x="55" y="234" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">External calls, control transfer, and reentrancy</text></g><g transform="translate(42,1442)">
+      <rect width="534.6666666666666" height="170" rx="18" fill="#111d32" stroke="#263c5c" stroke-width="1.4"/>
+      <rect width="6" height="170" rx="3" fill="#5b9cff"/>
+      <text x="24" y="30" fill="#7fb2ff" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">16 — ABI AND DATA ENCODING</text>
+      <text x="514.6666666666666" y="30" text-anchor="end" fill="#8fa6c7" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700">4 TOPICS</text><text x="24" y="59" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">77</text>
+        <text x="55" y="59" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Function signatures and selectors</text><text x="24" y="84" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">78</text>
+        <text x="55" y="84" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">abi.encode and abi.decode</text><text x="24" y="109" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">79</text>
+        <text x="55" y="109" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">abi.encodePacked and encoding ambiguity</text><text x="24" y="134" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">80</text>
+        <text x="55" y="134" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Calldata and returndata structure</text></g><g transform="translate(602.6666666666666,1442)">
+      <rect width="534.6666666666666" height="170" rx="18" fill="#111d32" stroke="#263c5c" stroke-width="1.4"/>
+      <rect width="6" height="170" rx="3" fill="#65d6c2"/>
+      <text x="24" y="30" fill="#7fb2ff" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">18 — COMPILER AND CODE GENERATION</text>
+      <text x="514.6666666666666" y="30" text-anchor="end" fill="#8fa6c7" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700">2 TOPICS</text><text x="24" y="59" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">81</text>
+        <text x="55" y="59" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Compiler warnings and errors</text><text x="24" y="84" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">82</text>
+        <text x="55" y="84" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Creation and runtime bytecode</text></g><g transform="translate(1163.3333333333333,1442)">
+      <rect width="534.6666666666666" height="170" rx="18" fill="#111d32" stroke="#263c5c" stroke-width="1.4"/>
+      <rect width="6" height="170" rx="3" fill="#b09cff"/>
+      <text x="24" y="30" fill="#7fb2ff" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">19 — LANGUAGE SEMANTICS AND FORMAL SPECIFICATION</text>
+      <text x="514.6666666666666" y="30" text-anchor="end" fill="#8fa6c7" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700">3 TOPICS</text><text x="24" y="59" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">83</text>
+        <text x="55" y="59" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Checked and unchecked arithmetic</text><text x="24" y="84" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">84</text>
+        <text x="55" y="84" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Revert and transaction-state rollback</text><text x="24" y="109" fill="#6d8bb8" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">85</text>
+        <text x="55" y="109" fill="#e2eaf6" font-family="Inter,Arial,sans-serif" font-size="14.2">Expression evaluation order and short-circuit</text></g>
+<text x="42" y="1688" fill="#8fa6c7" font-family="Inter,Arial,sans-serif" font-size="13">18 areas shown • 86 selected topics • advanced Yul / assembly topics are outside this core list</text>
+<text x="1698" y="1688" text-anchor="end" fill="#6681a8" font-family="Inter,Arial,sans-serif" font-size="12">0xSix9 / Solidity-Language-Knowledge-Map</text>
+</svg>
