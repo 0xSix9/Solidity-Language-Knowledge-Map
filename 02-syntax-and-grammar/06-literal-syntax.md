@@ -147,9 +147,16 @@ A decimal fractional literal must have at least one digit after the decimal poin
 Expressions made only from numeric literals can retain arbitrary precision during compile-time evaluation. This means division of numeric literals does not automatically truncate to an integer.
 
 ~~~solidity
-uint256 exact = 5 / 2; // Compile-time rational value 2.5 cannot be converted to uint256
-uint256 truncated = uint256(5) / 2; // Valid: integer division produces 2
-uint256 four = 0.5 * 8; // Valid: literal expression evaluates exactly to 4
+// Invalid: 5 / 2 is the rational literal value 2.5,
+// which cannot be implicitly converted to uint256.
+uint256 invalid = 5 / 2;
+~~~
+
+The valid integer-division version converts one operand to an integer type before division:
+
+~~~solidity
+uint256 truncated = uint256(5) / 2; // Integer division produces 2
+uint256 four = 0.5 * 8; // Literal expression evaluates exactly to 4
 ~~~
 
 The first declaration is invalid because the literal expression **5 / 2** represents the rational value **2.5**, which is not implicitly convertible to **uint256**. In the second declaration, the explicit conversion makes the left operand an integer value before division, so integer division produces **2**.
@@ -238,14 +245,14 @@ Common supported escape sequences include:
 
 | Escape | Meaning |
 |---|---|
-| **\\n** | Newline |
-| **\\r** | Carriage return |
-| **\\t** | Tab |
-| **\\\\** | Backslash |
-| **\\'** | Single quote |
-| **\\"** | Double quote |
-| **\\xNN** | Insert one byte specified by two hexadecimal digits |
-| **\\uNNNN** | Insert a Unicode code point specified by four hexadecimal digits |
+| **\n** | Newline |
+| **\r** | Carriage return |
+| **\t** | Tab |
+| **\\** | Backslash |
+| **\'** | Single quote |
+| **\"** | Double quote |
+| **\xNN** | Insert one byte specified by two hexadecimal digits |
+| **\uNNNN** | Insert a Unicode code point specified by four hexadecimal digits |
 
 The escape sequence changes the actual bytes represented by the literal. It is not simply a visual formatting instruction for the Solidity source file.
 
