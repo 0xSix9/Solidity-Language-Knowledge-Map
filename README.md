@@ -56,7 +56,7 @@ The links in the last column open the relevant stage inside the [Blockchain Conc
 
 [Open folder](https://github.com/0xSix9/Solidity-Language-Knowledge-Map/tree/main/02-syntax-and-grammar)
 
-- [`05-identifiers-and-keywords.md`](https://github.com/0xSix9/Solidity-Language-Knowledge-Map/blob/main/02-syntax-and-grammar/05-identifiers-and-keywords.md)
+- ✅ [`05-identifiers-and-keywords.md`](https://github.com/0xSix9/Solidity-Language-Knowledge-Map/blob/main/02-syntax-and-grammar/05-identifiers-and-keywords.md)
 - [`06-literal-syntax.md`](https://github.com/0xSix9/Solidity-Language-Knowledge-Map/blob/main/02-syntax-and-grammar/06-literal-syntax.md)
 - [`07-declaration-syntax.md`](https://github.com/0xSix9/Solidity-Language-Knowledge-Map/blob/main/02-syntax-and-grammar/07-declaration-syntax.md)
 - [`08-expression-block-and-statement-syntax.md`](https://github.com/0xSix9/Solidity-Language-Knowledge-Map/blob/main/02-syntax-and-grammar/08-expression-block-and-statement-syntax.md)
