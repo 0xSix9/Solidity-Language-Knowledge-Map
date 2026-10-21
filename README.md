@@ -47,10 +47,10 @@ The links in the last column open the relevant stage inside the [Blockchain Conc
 
 [Open folder](https://github.com/0xSix9/Solidity-Language-Knowledge-Map/tree/main/01-source-files)
 
-- [`01-solidity-source-files.md`](https://github.com/0xSix9/Solidity-Language-Knowledge-Map/blob/main/01-source-files/01-solidity-source-files.md)
-- [`02-spdx-license-identifier.md`](https://github.com/0xSix9/Solidity-Language-Knowledge-Map/blob/main/01-source-files/02-spdx-license-identifier.md)
-- [`03-pragma-and-solidity-version.md`](https://github.com/0xSix9/Solidity-Language-Knowledge-Map/blob/main/01-source-files/03-pragma-and-solidity-version.md)
-- [`04-import-directives.md`](https://github.com/0xSix9/Solidity-Language-Knowledge-Map/blob/main/01-source-files/04-import-directives.md)
+- ✅ [`01-solidity-source-files.md`](https://github.com/0xSix9/Solidity-Language-Knowledge-Map/blob/main/01-source-files/01-solidity-source-files.md)
+- ✅ [`02-spdx-license-identifier.md`](https://github.com/0xSix9/Solidity-Language-Knowledge-Map/blob/main/01-source-files/02-spdx-license-identifier.md)
+- ✅ [`03-pragma-and-solidity-version.md`](https://github.com/0xSix9/Solidity-Language-Knowledge-Map/blob/main/01-source-files/03-pragma-and-solidity-version.md)
+- ✅ [`04-import-directives.md`](https://github.com/0xSix9/Solidity-Language-Knowledge-Map/blob/main/01-source-files/04-import-directives.md)
 
 ### 02 — Syntax and Grammar
 
